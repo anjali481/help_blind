@@ -1,0 +1,32 @@
+{%extends "base.html"%}
+    
+{%block content%}
+
+
+<div class=" container-fluid" style='background-color:  #A569BD; padding: 10px'>
+	<h2 class='display-2'>Predicted Caption </h2>
+</div>
+	<br>
+	
+	
+<img src="{{url_for('static', filename='file.jpg')}}" alt="image" height=340px>
+
+<br>
+
+<h2 >
+	<b>Caption:</b> {{data}}
+
+</h2>
+<div>
+  <audio controls autoplay>
+                        <source src={{ soundit }} type="audio/mpeg">
+                         Your browser does not support the audio element.
+                        </audio>
+	
+</div>
+
+
+
+
+
+{%endblock%}
