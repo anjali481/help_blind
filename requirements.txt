@@ -53,7 +53,6 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 Pygments==2.7.0
 pyparsing==2.4.7
-pypiwin32==223
 python-dateutil==2.8.1
 pyttsx3==2.90
 PyYAML==5.4.1
