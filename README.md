@@ -1,5 +1,7 @@
 # image-captioning-keras-resnet
-run 
+Automatic Image caption generator with speech system using Flask with the dataset of 8000 images.
+Built a combinational pipeline model with LSTM and RESNET50
+
 <br>
 
 <h1> first </h1>
