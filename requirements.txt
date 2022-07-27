@@ -6,6 +6,7 @@ cachetools==4.2.2
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
+gast
 colorama==0.4.3
 comtypes==1.1.10
 cycler==0.10.0
